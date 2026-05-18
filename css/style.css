@@ -188,29 +188,10 @@ h3 { font-size: 1.2rem; font-family: 'Inter', sans-serif; font-weight: 700; }
   flex-direction: column;
   justify-content: flex-end;
   overflow: hidden;
-
-  /* Photo background — upload images/miami-hero.jpg to activate */
-  background-image: url('../images/miami-hero.jpg');
+  background-color: #0e1c28;
+  background-image: url('../miami-hero.jpg');
   background-size: cover;
   background-position: center 35%;
-
-  /* Sunset gradient fallback matching the Miami Brickell photo */
-  background-color: #0e1c28;
-  background: linear-gradient(
-    185deg,
-    #120820 0%,
-    #3a1218 10%,
-    #7a2c10 22%,
-    #b84c14 33%,
-    #d87818 43%,
-    #e89820 50%,
-    #c07020 57%,
-    #7a5228 66%,
-    #2e3e28 74%,
-    #164858 82%,
-    #0a5868 90%,
-    #064050 100%
-  );
 }
 
 /* Rich cinematic overlay */
@@ -487,11 +468,10 @@ h3 { font-size: 1.2rem; font-family: 'Inter', sans-serif; font-weight: 700; }
   padding: 96px 0;
   text-align: center;
   color: var(--white);
-  background-image: url('../images/miami-hero.jpg');
+  background-color: #0a1828;
+  background-image: url('../miami-hero.jpg');
   background-size: cover;
   background-position: center 60%;
-  background-color: #0a1828;
-  background: linear-gradient(185deg, #120820 0%, #7a2c10 30%, #d87818 50%, #164858 80%, #064050 100%);
 }
 .cta-band::before {
   content: '';
@@ -625,11 +605,10 @@ h3 { font-size: 1.2rem; font-family: 'Inter', sans-serif; font-weight: 700; }
 .service-hero {
   position: relative;
   overflow: hidden;
-  background-image: url('../images/miami-hero.jpg');
+  background-color: #0a1828;
+  background-image: url('../miami-hero.jpg');
   background-size: cover;
   background-position: center 40%;
-  background-color: #0a1828;
-  background: linear-gradient(185deg, #120820 0%, #7a2c10 30%, #d87818 50%, #164858 80%, #064050 100%);
   color: var(--white);
   padding: 90px 0;
 }
