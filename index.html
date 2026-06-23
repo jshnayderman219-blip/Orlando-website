@@ -75,34 +75,113 @@
             <a href="tel:+14487773679" class="btn btn--outline">&#128222; (448) 777-3679</a>
           </div>
         </div>
-        <div class="hero-card">
-          <h3>Conditions We Treat</h3>
-          <ul>
-            <li>Back Pain &amp; Sciatica</li>
-            <li>Neck Pain &amp; Whiplash</li>
-            <li>Auto Injury Rehabilitation</li>
-            <li>Sports &amp; Athletic Injuries</li>
-            <li>Headaches &amp; Migraines</li>
-            <li>Prenatal Chiropractic</li>
-            <li>Walk-Ins Welcome</li>
-          </ul>
+        <div class="hero-form-card">
+          <h3>Request a Same-Day Appointment</h3>
+          <form action="contact.html" method="GET">
+            <div class="form-group">
+              <label for="hf-name">Full Name</label>
+              <input type="text" id="hf-name" name="name" placeholder="Your full name" required />
+            </div>
+            <div class="form-group">
+              <label for="hf-phone">Phone Number</label>
+              <input type="tel" id="hf-phone" name="phone" placeholder="(448) 777-3679" required />
+            </div>
+            <div class="form-group">
+              <label for="hf-message">What brings you in?</label>
+              <textarea id="hf-message" name="message" placeholder="Back pain, neck pain, auto injury..."></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary">Request Appointment</button>
+            <p class="form-note">We'll call you within 1 business hour to confirm.</p>
+          </form>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- TRUST BAR -->
-  <div class="trust-bar">
+  <!-- INTRO -->
+  <section class="section">
     <div class="container">
-      <div class="trust-item"><strong>500+</strong><span>5-Star Reviews</span></div>
-      <div class="trust-item"><strong>15+</strong><span>Years in Cutler Bay</span></div>
-      <div class="trust-item"><strong>Same-Day</strong><span>Appointments</span></div>
-      <div class="trust-item"><strong>All Major</strong><span>Insurance Accepted</span></div>
+      <div class="intro-text">
+        <p>At <strong>Alivion Spine</strong>, we believe chronic pain shouldn't be something you just learn to live with. Our Cutler Bay chiropractic team combines hands-on adjustment, modern diagnostics, and genuine one-on-one care to get to the root cause of your pain — not just mask the symptoms.</p>
+        <p>Whether you're recovering from a car accident, managing sciatica, or simply tired of waking up stiff and sore, we'll build a treatment plan around your body and your goals. Same-day appointments and walk-ins are always welcome.</p>
+      </div>
     </div>
-  </div>
+  </section>
 
-  <!-- SERVICES -->
-  <section class="section" id="services">
+  <!-- SUFFERING FROM / SPLIT SECTION -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="split-grid">
+        <div class="split-col">
+          <span class="tag-line">Don't Wait It Out</span>
+          <h2>Suffering From Pain That Won't Go Away?</h2>
+          <p>Most people put off care until pain becomes unbearable. The truth is, the sooner you're evaluated, the faster — and more fully — you recover.</p>
+          <ul class="checklist">
+            <li>Pain lasting more than a few days</li>
+            <li>Stiffness that limits movement</li>
+            <li>Numbness, tingling, or weakness</li>
+            <li>Pain after an accident or injury</li>
+          </ul>
+          <a href="contact.html" class="btn btn--primary">Get Evaluated Today</a>
+        </div>
+        <div class="split-col" style="text-align:center;">
+          <div class="icon-badge-circle">🩺</div>
+        </div>
+        <div class="split-col">
+          <span class="tag-line">Why Patients Choose Us</span>
+          <h2>Cutler Bay's #1 Chiropractic Care Team</h2>
+          <p>We've helped hundreds of families across South Miami-Dade move better and live pain-free — without medication or surgery.</p>
+          <ul class="checklist">
+            <li>15+ years serving Cutler Bay</li>
+            <li>Same-day & walk-in appointments</li>
+            <li>Most major insurance accepted</li>
+            <li>500+ five-star patient reviews</li>
+          </ul>
+          <a href="tel:+14487773679" class="btn btn--outline">&#128222; (448) 777-3679</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED SERVICES ROW -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Featured Services</h2>
+        <p>A few of the ways we help Cutler Bay patients get back to living pain-free.</p>
+        <div class="accent-line"></div>
+      </div>
+      <div class="feature-row">
+        <div class="feature-item">
+          <div class="feature-icon">🦴</div>
+          <h3>Spinal Adjustments</h3>
+          <p>Precise, hands-on correction to restore alignment and relieve nerve pressure.</p>
+          <a href="services/chiropractic-adjustments.html" class="learn-more">Learn More &rarr;</a>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">🚗</div>
+          <h3>Auto Injury Care</h3>
+          <p>Specialized whiplash and accident recovery, coordinated with your insurance.</p>
+          <a href="services/auto-injury.html" class="learn-more">Learn More &rarr;</a>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">⚡</div>
+          <h3>Sciatica Relief</h3>
+          <p>Targeted treatment for sciatic nerve pain radiating down the leg.</p>
+          <a href="services/sciatica.html" class="learn-more">Learn More &rarr;</a>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">🤰</div>
+          <h3>Prenatal Care</h3>
+          <p>Safe, gentle adjustments to ease pregnancy discomfort at every stage.</p>
+          <a href="services/prenatal-chiropractic.html" class="learn-more">Learn More &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES GRID -->
+  <section class="section section--alt" id="services">
     <div class="container">
       <div class="section-header">
         <h2>Chiropractic Services in <em>Cutler Bay</em></h2>
@@ -162,8 +241,56 @@
     </div>
   </section>
 
+  <!-- SYMPTOMS GRID -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Common Symptoms We Treat</h2>
+        <p>If any of these sound familiar, we can help.</p>
+        <div class="accent-line"></div>
+      </div>
+      <div class="symptoms-grid">
+        <div class="symptom-tile"><div class="symptom-icon">💢</div><span>Lower Back Pain</span></div>
+        <div class="symptom-tile"><div class="symptom-icon">🌀</div><span>Neck Stiffness</span></div>
+        <div class="symptom-tile"><div class="symptom-icon">⚡</div><span>Sciatic Nerve Pain</span></div>
+        <div class="symptom-tile"><div class="symptom-icon">🤕</div><span>Headaches</span></div>
+        <div class="symptom-tile"><div class="symptom-icon">🚗</div><span>Whiplash</span></div>
+        <div class="symptom-tile"><div class="symptom-icon">🦵</div><span>Numbness &amp; Tingling</span></div>
+        <div class="symptom-tile"><div class="symptom-icon">🏃</div><span>Sports Injuries</span></div>
+        <div class="symptom-tile"><div class="symptom-icon">🤰</div><span>Pregnancy Discomfort</span></div>
+        <div class="symptom-tile"><div class="symptom-icon">😴</div><span>Poor Sleep / Tension</span></div>
+        <div class="symptom-tile"><div class="symptom-icon">🪑</div><span>Posture Problems</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MEET OUR TEAM -->
+  <section class="team-band">
+    <div class="container">
+      <div class="team-grid">
+        <div class="team-avatar">🩺</div>
+        <div>
+          <span class="team-role">Meet The Team</span>
+          <h2>Meet Our Chiropractic Team</h2>
+          <p>Our Cutler Bay team is dedicated to thorough, hands-on care. We take the time to listen, examine, and explain — so every treatment plan is built around your specific condition, not a one-size-fits-all routine. Whether it's your first adjustment or your fiftieth, you'll be treated like family.</p>
+          <a href="contact.html" class="btn btn--primary">Schedule a Visit</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST BAR -->
+  <div class="trust-bar">
+    <div class="container">
+      <div class="trust-item"><strong>500+</strong><span>5-Star Reviews</span></div>
+      <div class="trust-item"><strong>15+</strong><span>Years in Cutler Bay</span></div>
+      <div class="trust-item"><strong>Same-Day</strong><span>Appointments</span></div>
+      <div class="trust-item"><strong>All Major</strong><span>Insurance Accepted</span></div>
+    </div>
+  </div>
+
   <!-- WHY CHOOSE US -->
-  <section class="section section--alt" id="about">
+  <section class="section" id="about">
     <div class="container">
       <div class="section-header">
         <h2>Why Cutler Bay Chooses <em>Us</em></h2>
@@ -206,12 +333,20 @@
   </section>
 
   <!-- REVIEWS -->
-  <section class="section" id="reviews">
+  <section class="section section--alt" id="reviews">
     <div class="container">
       <div class="section-header">
         <h2>What Our Patients Say</h2>
         <p>Real stories from real patients across Cutler Bay and South Miami-Dade.</p>
         <div class="accent-line"></div>
+      </div>
+      <div class="testimonial-badge">
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <span>Rated 5.0 out of 5 by 500+ patients</span>
+        <div class="platform-links">
+          <a href="https://www.google.com/maps" title="Google Reviews">G</a>
+          <a href="https://www.facebook.com" title="Facebook Reviews">f</a>
+        </div>
       </div>
       <div class="reviews-grid">
         <div class="review-card">
@@ -248,6 +383,53 @@
     </div>
   </section>
 
+  <!-- QUICK CONTACT BAND -->
+  <section class="quick-contact-band">
+    <div class="container">
+      <div class="quick-contact-grid">
+        <div>
+          <div class="quick-contact-icon">📍</div>
+        </div>
+        <div>
+          <h3>Visit Our Office</h3>
+          <p style="color:var(--muted); margin-bottom:18px; line-height:1.7;">6445 SW 8th St<br>Miami, FL 33144</p>
+          <h3>Office Hours</h3>
+          <p style="color:var(--muted); line-height:1.7;">Mon – Fri: 8:00am – 6:00pm<br>Saturday: 9:00am – 1:00pm<br>Sunday: Closed</p>
+        </div>
+        <div class="quick-contact-form">
+          <h3>Send Us a Message</h3>
+          <form action="contact.html" method="GET">
+            <div class="form-group">
+              <label for="qc-name">Full Name</label>
+              <input type="text" id="qc-name" name="name" placeholder="Your full name" required />
+            </div>
+            <div class="form-group">
+              <label for="qc-email">Email Address</label>
+              <input type="email" id="qc-email" name="email" placeholder="your@email.com" required />
+            </div>
+            <div class="form-group">
+              <label for="qc-message">Message</label>
+              <textarea id="qc-message" name="message" placeholder="How can we help?"></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary" style="width:100%;">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUOTE -->
+  <section class="quote-section">
+    <div class="container">
+      <p class="quote-block">"The doctor of the future will give no medicine, but will interest his patients in the care of the human frame, in diet, and in the cause and prevention of disease."<span class="quote-cite">— Thomas Edison</span></p>
+    </div>
+  </section>
+
+  <!-- MAP -->
+  <section>
+    <iframe class="map-embed" src="https://maps.google.com/maps?q=6445+SW+8th+St,+Miami,+FL+33144&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Alivion Spine location map"></iframe>
+  </section>
+
   <!-- AREA SERVED -->
   <section class="section section--alt">
     <div class="container">
@@ -275,7 +457,7 @@
       <div class="footer-grid">
         <div class="footer-col">
           <span class="logo-footer">Alivion <span>Spine</span></span>
-          <p>Cutler Bay's trusted chiropractic practice. Expert, compassionate care for South Miami-Dade families since [year].</p>
+          <p>Cutler Bay's trusted chiropractic practice. Expert, compassionate care for South Miami-Dade families since 2010.</p>
         </div>
         <div class="footer-col">
           <h4>Services</h4>
